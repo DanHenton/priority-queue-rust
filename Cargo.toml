@@ -3,4 +3,8 @@ name = "prirority_queue_worker"
 version = "0.1.0"
 edition = "2021"
 
+[workspace]
+members = ["priority_queue"]
+
 [dependencies]
+priority_queue = { path = "./priority_queue"}
